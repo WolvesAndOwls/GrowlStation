@@ -1,14 +1,11 @@
-///var/atom/movable/lobby_image = new /atom/movable{icon = 'icons/misc/title.dmi'; icon_state = lobby_image_state; screen_loc = "1,1"; name = "Polaris"}
-
 var/obj/effect/lobby_image = new /obj/effect/lobby_image
 
 /obj/effect/lobby_image
-	name = "CHOMPStation"
+	name = "GrowlStation"
 	desc = "How are you reading this?"
 	screen_loc = "1,1"
 	icon = 'icons/misc/loading.dmi' //VOREStation Add - Loading Screen
 	icon_state = "loading(old)" //VOREStation Add - Loading Screen //CHOMPedit: let's keep the old one since the new one references vorestation
-
 /obj/effect/lobby_image/Initialize()
 	icon = using_map.lobby_icon
 	var/known_icon_states = cached_icon_states(icon)

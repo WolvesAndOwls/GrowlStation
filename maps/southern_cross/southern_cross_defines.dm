@@ -34,7 +34,7 @@ but they don't actually change anything about the load order
 	path = "southern_cross"
 
 	lobby_icon = 'icons/misc/Growl.gif'	//GrowlStation Edit
-	lobby_screens = list() //CHOMPStation Edit - CHOMPStation image
+	lobby_screens = list('icons/misc/Growl.gif') //CHOMPStation Edit - CHOMPStation image
 	id_hud_icons = 'icons/mob/hud_jobs_vr.dmi'	//CHOMPStation Edit - Job icons for off-duty/exploration
 
 	holomap_smoosh = list(list(
