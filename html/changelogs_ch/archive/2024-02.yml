@@ -90,5 +90,9 @@
       when i ported them oops)
 2024-02-09:
   Upstream:
+<<<<<<< HEAD
+=======
+  - qol: Updated prettier version
+>>>>>>> b9295e90c55a8f0479d923bde074309b57dafb29
   - rscdel: Removed Internet Explorer 8 support
   - qol: tgui 5.0 update
